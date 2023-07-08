@@ -15,7 +15,7 @@ app.use(function (req, res, next) {
 });
 let port = process.env.PORT || 2410
 app.listen(port, () => console.log(`Node app listening on port ${port}!`));
-let mysql=require("mysql");
+
 
 const {Client}=require("pg");
 const client = new Client({
